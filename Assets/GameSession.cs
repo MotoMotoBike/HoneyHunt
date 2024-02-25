@@ -10,10 +10,14 @@ using Random = System.Random;
 
 public class GameSession : MonoBehaviour
 {
+    [SerializeField] private int levelID;
+    [Space]
     [SerializeField] private GameObject[] healthIndicators;
-    [SerializeField] private Text gemsValueText;
+    [SerializeField] private Text[] gemsValueText;
     [SerializeField] private Text scoreValueText;
     [SerializeField] private int health;
+    [SerializeField] private GameObject completeLevelScreen;
+    [SerializeField] private GameObject failLevelScreen;
     private int gemsCount;
 
     void Start()
@@ -24,13 +28,28 @@ public class GameSession : MonoBehaviour
     public void AddGems()
     {
         gemsCount--;
-        gemsValueText.text = (Convert.ToInt32(gemsValueText.text) + 10).ToString();
+        foreach (var text in gemsValueText)
+        {
+            text.text = (Convert.ToInt32(text.text) + 10).ToString();
+        }
         scoreValueText.text = (Convert.ToInt32(scoreValueText.text) + UnityEngine.Random.Range(10,100)).ToString();
+        if (gemsCount == 0)
+        {
+            SaveData.SetScoreByLevelID(levelID,Convert.ToInt32(scoreValueText.text));
+            completeLevelScreen.SetActive(true);
+            Destroy(gameObject);
+        }
     }
     public void AddScull()
     {
         health--;
-        if (health == 0) FindObjectOfType<AppNavigationTool>().ReLoadLevel();
+        if (health == 0)
+        {
+            
+            DisplayHealth();
+            Destroy(gameObject);
+            failLevelScreen.SetActive(true);
+        }
         DisplayHealth();
     }
 
@@ -38,7 +57,7 @@ public class GameSession : MonoBehaviour
     {
         foreach (var indicator in healthIndicators)
         {
-            indicator.SetActive(true);
+            indicator.SetActive(false);
         }
         for (int i = 0; i < health; i++)
         {

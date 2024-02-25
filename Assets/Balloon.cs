@@ -29,7 +29,7 @@ public class Balloon : MonoBehaviour
     public void OnClick()
     {
         if(_opened) return;
-
+        targetImage.gameObject.SetActive(true);
         if (hasGems)
         {
             targetImage.sprite = gems;

@@ -22,7 +22,6 @@ public class LevelInfoVisualizer : MonoBehaviour
         score = SaveData.GetScoreByLevelID(levelID);
         FillLevelInfoText();
         UpdateAccessToButton();
-        ShowLevelStars();
     }
 
 
