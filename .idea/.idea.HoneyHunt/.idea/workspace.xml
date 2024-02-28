@@ -5,115 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="246067ae-14f7-47db-abec-3471c824d12b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.HiddenChestsAloft/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.HiddenChestsAloft/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.HiddenChestsAloft/.idea/indexLayout.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.HiddenChestsAloft/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Balloon.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Balloon.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameSession.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameSession.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/10.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/4.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/5.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/6.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/7.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/8.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/9.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/banner.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/banner.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/fon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/fon.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/markerfelt_wide.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/markerfelt_wide.ttf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/play_store_512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/play_store_512.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Презентация3-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Презентация3-1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Презентация3-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Презентация3-2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Презентация3-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Презентация3-3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Ресурс 1 2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Ресурс 1 2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Ресурс 1 3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Ресурс 1 3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Ресурс 1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Ресурс 1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Ресурс 10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Ресурс 10.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Ресурс 2 2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Ресурс 2 2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Ресурс 2 3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Ресурс 2 3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Ресурс 2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Ресурс 2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Ресурс 3 2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Ресурс 3 2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Ресурс 3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Ресурс 3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Ресурс 4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Ресурс 4.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Ресурс 5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Ресурс 5.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Ресурс 6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Ресурс 6.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Ресурс 7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Ресурс 7.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Ресурс 8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Ресурс 8.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Ресурс 9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Ресурс 9.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/т3.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/т3.docx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Balloon (1).prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Balloon (1).prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/BasicLevelCanvas.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/BasicLevelCanvas.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level2.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level2.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level3.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level3.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level4.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level4.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level5.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level5.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level6.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level6.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AppNavigationTool.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AppNavigationTool.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelInfoVisualizer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelInfoVisualizer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SaveData.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SaveData.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/BurstAotSettings_Android.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/CommonBurstAotSettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.HoneyHunt/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HoneyHunt/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RotationPivot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RotationPivot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,6 +18,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/e97d84204f8d4aef92b538c5bab948f1172800/25/f48f7518/UnityEvent.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MoveAtDirection.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/PlayerCollisionController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RotationController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/RotationPivot.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
@@ -129,25 +30,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\MotoMotoBike\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\DecompilerCache",
-      "C:\\Users\\MotoMotoBike\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\SourcesCache",
-      "C:\\Users\\MotoMotoBike\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\MotoMotoBike\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\MotoMotoBike\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\MotoMotoBike\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="D:\Programming\UnityEditor\2022.3.7f1\Editor\Unity.exe" />
@@ -195,6 +96,7 @@
       <option name="presentableId" value="Default" />
       <updated>1708940466367</updated>
       <workItem from="1708940496365" duration="2863000" />
+      <workItem from="1709012480370" duration="12976000" />
     </task>
     <servers />
   </component>

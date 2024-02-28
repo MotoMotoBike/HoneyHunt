@@ -1,44 +1,53 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class RotationPivot : MonoBehaviour
 {
-    [SerializeField] private bool isBorder;
-    [SerializeField] float speed = 1f; // Скорость движения объекта
-    [SerializeField] float radius = 1f; // Радиус окружности
-    [SerializeField] Vector3 center; // Центр окружности
+    [SerializeField] float speed = 1f; 
+    [SerializeField] float radius = 1f; 
+    [SerializeField] private float reqareAngle;
     [Space]
     [SerializeField] private GameObject agent;
-    private bool isActive;
-    private float currentAngle = 0f;
-    private bool isMovingDown = true;
+    public bool isActive = true;
+    public float currentAngle = 0f;
+    public float passedAngle = 0f;
     public Action onRotateFinished;
     
     void Update()
     {
         if(!isActive)return;
-        // Рассчитываем новую позицию объекта по окружности
-        float x = center.x + Mathf.Cos(currentAngle) * radius;
-        float y = center.y + Mathf.Sin(currentAngle) * radius;
+        var step = speed * Time.deltaTime * RotationController.speedMultiplyer;
+        
+        currentAngle += step;
+        passedAngle += Mathf.Abs(step);
 
-        if (isMovingDown && currentAngle>=180)
+        var radians = step * Mathf.Deg2Rad;
+        var X = transform.position.x + Mathf.Cos(radians) * (agent.transform.position.x - transform.position.x) - Mathf.Sin(radians) * (agent.transform.position.y - transform.position.y);
+        var Y = transform.position.y + Mathf.Sin(radians) * (agent.transform.position.x - transform.position.x) + Mathf.Cos(radians) * (agent.transform.position.y - transform.position.y);
+        if (Mathf.Abs(passedAngle) >= reqareAngle)
         {
-            currentAngle = 180;
-            agent.transform.position = new Vector3(x, y, 0);
+            RoundAngle(step);
+            passedAngle = 0;
+            isActive = false;
+            onRotateFinished?.Invoke();
         }
         
-        agent.transform.position = new Vector3(x, y, 0);
+        agent.transform.position = new Vector3(X, Y, 0);
     }
 
+    private void RoundAngle(float step)
+    {
+        currentAngle = Mathf.Abs(currentAngle - 179) >= step ? 180 : 0;
+    }
+    
     public void Enable()
     {
         isActive = true;
     }
-    public void ChekDisable()
+
+    private void OnDrawGizmos()
     {
-        isActive = false;
+        Gizmos.DrawSphere(transform.position,radius);
     }
 }
 
